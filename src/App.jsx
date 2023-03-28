@@ -1,17 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Navbar from "./Components/Navbar"
-import Sidebar from "./Components/Sidebar";
-
+import Body from "./Components/Body";
+import Navbar from "./Components/Navbar";
 
 function App() {
-
-
   return (
-   
     <>
-      <Navbar />
-      <Sidebar />
+      <div className="h-screen">
+        <Navbar />
+        <Body />
+      </div>
     </>
   );
 }
