@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Sidebarr() {
   return (
-    <div className="w-[200px] h-full text-white border-r-[1px] border-[#191d20] bg-[#21222c]">
+    <div className="w-[18vw] h-full text-white border-r-[1px] border-[#191d20] bg-[#21222c]">
       <div>
         <p className="py-2 px-3 text-base font-light tracking-widest">
           EXPLORER
@@ -20,25 +20,25 @@ function Sidebarr() {
       </div>
       <div className=" text-sm">
         <Link to="/">
-          <div className="flex items-center px-4 py-1">
+          <div className="flex  hover:bg-[#282a36] items-center px-4 py-1">
             <img src={react_icon} alt="html_icon" className=" w-5" />
             <p className="pl-1">home.jsx</p>
           </div>
         </Link>
         <Link to="/about">
-          <div className="flex items-center px-4 py-1">
+          <div className="flex items-center hover:bg-[#282a36] px-4 py-1">
             <img src={html_icon} alt="html_icon" className=" w-5" />
             <p className="pl-1">About.html</p>
           </div>
         </Link>
         <Link to="/contact">
-          <div className="flex items-center px-4 py-1">
+          <div className="flex items-center hover:bg-[#282a36] px-4 py-1">
             <img src={css_icon} alt="html_icon" className=" w-5" />
             <p className="pl-1">Contact.css</p>
           </div>
         </Link>
         <Link to="/project">
-          <div className="flex items-center px-4 py-1">
+          <div className="flex items-center hover:bg-[#282a36] px-4 py-1">
             <img src={json_icon} alt="html_icon" className=" w-5" />
             <p className="pl-1">project.json</p>
           </div>

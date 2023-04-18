@@ -3,7 +3,7 @@
 function About() {
   return (
    
-      <div className="bg-[#282a36] text-white w-full">About</div>
+      <div className="bg-[#282a36] h-full text-white">About</div>
   
   );
 }
