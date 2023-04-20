@@ -5,7 +5,7 @@ import Sidebarr from "./Sidebarr";
 
 function Sidebar() {
   return (
-    <div className="flex  h-screen">
+    <div className="flex h-full">
      <Sidebarl />
      <Sidebarr />
      

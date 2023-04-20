@@ -5,7 +5,7 @@ import json_icon from "../assets/json_icon.svg";
 import { Link } from "react-router-dom";
 function Tabsbar() {
   return (
-    <div className="bg-[#191a21] text-sm overflow-x-auto overflow-y-hidden">
+    <div className="bg-[#191a21] h- text-sm overflow-x-auto overflow-y-hidden">
       <div className=" cursor-pointer  text-white flex">
         <Link to="/">
           <div className="flex items-center border :bg-blue-600 border-solid border-[#191a21] border-1 bg-[#282a36] px-5 py-2">

@@ -6,9 +6,9 @@ import Content from "./Content";
 
 function Body() {
     return (
-      <div className="flex ">
+      <div className="flex  h-full">
         <Sidebar />
-     <Content />
+        <Content />
       </div>
     );
 }
