@@ -15,7 +15,7 @@ function Navbar() {
       </div>
 
       <div className="grow-[4] shrink-[1] text-center md:flex-1 ">
-        Ankit Jangid-portfolio
+        Ankit Jangid
       </div>
       <div className="ml-auto flex items-center  md:flex-1">
         <span className="w-3 h-3 ml-auto rounded-full bg-[#f1fa8c]"></span>

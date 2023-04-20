@@ -5,7 +5,7 @@ function Footer() {
     <footer className="flex items-center justify-between text-sm px-2 text-[#e1e4e8] bg-[#191a21] border-t-2 border-[#191a21] h-full">
       <div className="flex items-center ">
         <a
-          className="mr-[0.5rem] flex items-center px-1 gap-1 cursor-pointer h-6 hover:bg-[#4f4f52]"
+          className="mr-[0.5rem] flex items-center px-2 gap-1 cursor-pointer h-6 hover:bg-[#4f4f52]"
           href="https://github.com/ankitjangidx"
           target="_blank"
         >
@@ -19,7 +19,7 @@ function Footer() {
           </svg>
           <p className="hidden md:inline-block">main</p>
         </a>
-        <div className="flex items-center gap-1  cursor-pointer hover:bg-[#4f4f52]">
+        <div className="flex items-center gap-1  cursor-pointer px-2 hover:bg-[#4f4f52]">
           <div className="flex items-center h-6 gap-1">
             <svg
               className="w-4"

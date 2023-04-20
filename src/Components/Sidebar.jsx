@@ -6,9 +6,10 @@ import Sidebarr from "./Sidebarr";
 function Sidebar() {
   return (
     <div className="flex h-full">
-     <Sidebarl />
-     <Sidebarr />
-     
+      <Sidebarl />
+      <div className="hidden md:inline-block">
+        <Sidebarr />
+      </div>
     </div>
   );
 }

@@ -21,7 +21,7 @@ function Sidebarr() {
       <div className=" text-sm">
         <Link to="/">
           <div className="flex  hover:bg-[#282a36] items-center px-4 py-1">
-            <img src={react_icon} alt="html_icon" className=" w-5" />
+            <img src={react_icon} alt="react_icon" className=" w-5" />
             <p className="pl-1">home.jsx</p>
           </div>
         </Link>
