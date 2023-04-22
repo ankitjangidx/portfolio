@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 function Content() {
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="flex flex-col h-full w-full overflow-hidden">
       <Tabsbar />
       <div className="h-full">
         <Outlet />

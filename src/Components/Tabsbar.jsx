@@ -7,25 +7,25 @@ function Tabsbar() {
   return (
     <div className="flex items-center w-full bg-[#21222c] text-sm overflow-y-hidden overflow-x-auto ">
       <div className="  text-[#ececec]  flex">
-        <Link to="/">
+        <Link className="px-5" to="/">
           <div className="flex px-1 py-3 cursor-pointer gap-1 items-center  justify-center ">
             <img src={react_icon} alt="react_icon" className=" w-5" />
             <p className="ml-1">home.jsx</p>
           </div>
         </Link>
-        <Link to="/about">
+        <Link className="px-5" to="/about">
           <div className="flex px-1 py-3 cursor-pointer gap-1 items-center justify-center">
             <img src={html_icon} alt="html_icon" className=" w-5" />
             <p className="ml-1">About.html</p>
           </div>
         </Link>
-        <Link to="/contact">
+        <Link className="px-5" to="/contact">
           <div className="flex px-1 py-3 cursor-pointer gap-1 items-center justify-center">
             <img src={css_icon} alt="html_icon" className=" w-5" />
             <p className="ml-1">Contact.css</p>
           </div>
         </Link>
-        <Link to="/project">
+        <Link className="px-5" to="/project">
           <div className="flex px-1 py-3 cursor-pointer gap-1 items-center justify-center">
             <img src={json_icon} alt="html_icon" className=" w-5" />
             <p className="ml-1">project.json</p>
